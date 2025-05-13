@@ -36,7 +36,7 @@ Um programa em Python que:
 .Exiba uma mensagem personalizada com o nome e a idade.
 .Código de exemplo:
 
-**Arquivo:** `SEACO1.py`
+**Arquivo:** `SECAO1.py`
 
 **Como executar o código:**
 Acesse: [Programiz Python Online](https://www.programiz.com/python-programming/online-compiler/)
