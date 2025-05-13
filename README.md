@@ -110,7 +110,7 @@ Por fim, este é o momento de tirar dúvidas, discutir com colegas e o professor
 ---
 ### Este estudo dirigido foi desenvolvido por:
 
-Nome 1 – Isaac Mesquita Moreira - 38211521
-Nome 2 – Yuri Henrique de Lara Cardoso Valadares - 35674695
-Nome 3 – Diego Santana dos Santos - 35989262
+***Nome 1 – Isaac Mesquita Moreira - 38211521.***
+***Nome 2 – Yuri Henrique de Lara Cardoso Valadares - 35674695.***
+***Nome 3 – Diego Santana dos Santos - 35989262.***
 ---
