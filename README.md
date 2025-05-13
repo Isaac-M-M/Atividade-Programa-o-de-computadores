@@ -24,21 +24,37 @@ Livro: **Algoritmos e Programação I**
 
 ---
 
-### 2. Estrutura Sequencial (10 min)
+###SEÇÃO 1- ESTRUTURA SEQUENCIAL (página 104)
+**Conceito:**
+A estrutura sequencial é a mais básica da programação. Nela, as instruções são executadas em ordem linear, de cima para baixo, uma depois da outra, sem desvios ou repetições.
 
-**Conceito:**  
-Comandos executados de cima para baixo, em ordem.
+
 
 **Atividade:**  
 Peça dois números, some-os e mostre o resultado.
 
-**Exemplo de código:**
-```python
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
-soma = numero1 + numero2
-print("A soma é:", soma)
-```
+**Exemplo Prático
+Atividade:
+Crie um programa em Python que:
+
+.Solicite ao usuário seu nome.
+.Solicite a idade.
+.Exiba uma mensagem personalizada com o nome e a idade.
+.Código de exemplo:
+
+python
+Copiar
+Editar
+# sequencial_nome_idade.py
+
+# Solicita o nome do usuário
+nome = input("Digite seu nome: ")
+
+# Solicita a idade do usuário
+idade = input("Digite sua idade: ")
+
+# Exibe a mensagem personalizada
+print("Olá,", nome + "! Você tem", idade, "anos.")
 
 **Arquivo:** `sequencial.py`
 
