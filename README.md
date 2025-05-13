@@ -1,10 +1,16 @@
 # Estudo Dirigido: Estruturas de Controle do Fluxo de Execução
 
-## Objetivo
-Compreender e aplicar os conceitos de:
-- Estrutura Sequencial
-- Estruturas de Decisão
-- Estruturas de Repetição
+## Introdução
+
+Durante o desenvolvimento de algoritmos, é preciso controlar a ordem em que as instruções são executadas. Para isso, utilizamos as chamadas *estruturas de controle de fluxo*, que permitem organizar e definir como o programa se comporta em diferentes situações.
+
+No estudo de lógica e programação, existem três tipos principais de estruturas:
+
+1. *Sequencial:* Instruções executadas linha por linha, na ordem em que aparecem no código.
+2. *Decisão:* Permite escolher entre caminhos diferentes, dependendo de condições (usando if, else, elif).
+3. *Repetição:* Repete blocos de código enquanto uma condição for verdadeira (while) ou para uma sequência definida (for).
+
+Este estudo dirigido tem como objetivo *aplicar essas três estruturas básicas em programas simples escritos em Python, com base no conteúdo apresentado no livro *Algoritmos e Programação I. Ao final, os códigos serão organizados e armazenados em um repositório no GitHub.
 
 ## Recurso Teórico
 Livro: **Algoritmos e Programação I**  
@@ -15,14 +21,6 @@ Livro: **Algoritmos e Programação I**
 - Estrutura Sequencial (p. 104)
 - Estruturas de Decisão (p. 114)
 - Estruturas de Repetição (p. 135)
-
----
-
-## Plano da Aula (45 minutos)
-
-### 1. Introdução (5 min)
-- Apresentar os três tipos de controle de fluxo.
-- Mostrar a sequência da aula prática.
 
 ---
 
