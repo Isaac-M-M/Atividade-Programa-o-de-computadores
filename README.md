@@ -36,7 +36,7 @@ Um programa em Python que:
 .Exiba uma mensagem personalizada com o nome e a idade.
 .Código de exemplo:
 
-**Arquivo:** `SECAO1.py`
+**Arquivo:** `secao1.py`
 
 **Como executar o código:**
 Acesse: [Programiz Python Online](https://www.programiz.com/python-programming/online-compiler/)
@@ -62,7 +62,7 @@ Um programa em Python que:
 .Verifique se o número é positivo, negativo ou zero.
 .Exiba uma mensagem correspondente ao resultado.
 
-**Arquivo:** `SECAO2.py`
+**Arquivo:** `secao2.py`
 
 **Como executar o código:**
 Acesse: [Programiz Python Online](https://www.programiz.com/python-programming/online-compiler/)
@@ -85,14 +85,14 @@ Um programa que:
 Solicite ao usuário um número inteiro.
 Conte de 1 até esse número usando um loop while.
 
-**Arquivo:** `repeticao_while.py`
+**Arquivo:** `secao3While.py`
 
 Exemplo com for
 Um programa que:
 Peça ao usuário um número inteiro.
 Imprima a tabuada desse número de 1 a 10 utilizando for.
 
-**Arquivo:** `repeticao_for.py`
+**Arquivo:** `secao3For.py`
 
 ---
 
