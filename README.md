@@ -24,106 +24,87 @@ Livro: **Algoritmos e Programação I**
 
 ---
 
-###SEÇÃO 1- ESTRUTURA SEQUENCIAL (página 104)
+### SEÇÃO 1- ESTRUTURA SEQUENCIAL (página 104)
 **Conceito:**
 A estrutura sequencial é a mais básica da programação. Nela, as instruções são executadas em ordem linear, de cima para baixo, uma depois da outra, sem desvios ou repetições.
 
-
-
-**Atividade:**  
-Peça dois números, some-os e mostre o resultado.
-
-**Exemplo Prático
-Atividade:
-Crie um programa em Python que:
+**Exemplo Prático**
+Um programa em Python que:
 
 .Solicite ao usuário seu nome.
 .Solicite a idade.
 .Exiba uma mensagem personalizada com o nome e a idade.
 .Código de exemplo:
 
-python
-Copiar
-Editar
-# sequencial_nome_idade.py
+**Arquivo:** `SEACO1.py`
 
-# Solicita o nome do usuário
-nome = input("Digite seu nome: ")
+**Como executar o código:**
+Acesse: [Programiz Python Online](https://www.programiz.com/python-programming/online-compiler/)
+Cole o código no editor.
+Clique em Run para executar o programa.
 
-# Solicita a idade do usuário
-idade = input("Digite sua idade: ")
 
-# Exibe a mensagem personalizada
-print("Olá,", nome + "! Você tem", idade, "anos.")
-
-**Arquivo:** `sequencial.py`
 
 ---
 
-### 3. Estrutura de Decisão (15 min)
+### SEÇÃO 2- ESTRUTURAS DE DECISÃO (página 114)
 
 **Conceito:**  
-Usar if, else e elif para decisões no programa.
+As estruturas de decisão permitem escolher entre diferentes caminhos de execução, usando condições lógicas. Em Python, isso é feito com os comandos if, elif e else.
 
-**Atividade:**  
-Verifique a idade e imprima se é maior, menor ou exatamente 18 anos.
 
-**Exemplo de código:**
-```python
-idade = int(input("Digite sua idade: "))
-if idade > 18:
-    print("Você é maior de idade")
-elif idade == 18:
-    print("Você tem exatamente 18 anos")
-else:
-    print("Você é menor de idade")
-```
 
-**Arquivo:** `decisao_idade.py`
+Exemplo Prático
+
+Um programa em Python que:
+
+.Solicite ao usuário um número.
+.Verifique se o número é positivo, negativo ou zero.
+.Exiba uma mensagem correspondente ao resultado.
+
+**Arquivo:** `SECAO2.py`
+
+**Como executar o código:**
+Acesse: [Programiz Python Online](https://www.programiz.com/python-programming/online-compiler/)
+Cole o código no editor.
+Clique em Run para executar o programa.
 
 ---
 
-### 4. Estruturas de Repetição (15 min)
+### SEÇÃO 3- ESTRUTURAS DE REPETIÇÃO (página 135)
 
-#### WHILE
-**Atividade:**  
-Imprima os números de 1 a 5 com `while`.
+**Conceito:**  
+As estruturas de repetição são utilizadas quando é precisamos executar um conjunto de instruções mais de uma vez, dentro de uma condição.
 
-```python
-contador = 1
-while contador <= 5:
-    print(contador)
-    contador += 1
-```
+As mais comuns são:
+while → repete enquanto a condição for verdadeira.
+for → repete um número definido de vezes, geralmente com range().
+
+Exemplo com while:
+Um programa que:
+Solicite ao usuário um número inteiro.
+Conte de 1 até esse número usando um loop while.
 
 **Arquivo:** `repeticao_while.py`
 
-#### FOR
-**Atividade:**  
-Imprima os números de 1 a 5 com `for`.
-
-```python
-for i in range(1, 6):
-    print(i)
-```
+Exemplo com for
+Um programa que:
+Peça ao usuário um número inteiro.
+Imprima a tabuada desse número de 1 a 10 utilizando for.
 
 **Arquivo:** `repeticao_for.py`
 
 ---
 
-## 5. Encerramento (5 min)
-- Recapitular conceitos.
-- Estimular dúvidas e testes extras.
-- Reforçar o uso do GitHub.
+### Revisamos os três principais tipos de estruturas de controle de fluxo:
+➤ Sequencial: execução linha a linha, sem desvios.
+➤ Decisão: escolha de caminhos com if, elif, else.
+➤ Repetição: execução repetida com while e for.
 
+Incentivamos o uso dos exemplos como base para explorar outras ideias e testar variações dos códigos.
+Reforçamos a importância de organizar os arquivos no GitHub para facilitar:
+o acompanhamento pela disciplina,
+o acesso futuro aos exercícios,
+e a construção do portfólio pessoal.
+Por fim, este é o momento de tirar dúvidas, discutir com colegas e o professor, e fortalecer o entendimento prático dos conceitos.
 ---
-
-## Instruções para o GitHub
-
-1. Criar um repositório chamado `programacao-de-computadores`.
-2. Criar a pasta: `atividades praticas de Programação de computadores`.
-3. Adicionar os arquivos:
-   - `sequencial.py`
-   - `decisao_idade.py`
-   - `repeticao_while.py`
-   - `repeticao_for.py`
